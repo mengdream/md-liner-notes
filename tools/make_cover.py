@@ -121,6 +121,8 @@ def main():
     ap.add_argument("--base-url", default="https://mengdream.github.io/md-liner-notes")
     ap.add_argument("--label-focus", help="cx,cy focal point 0..1 (default: album json label_focus or 0.5,0.5)")
     ap.add_argument("--label-zoom", type=float, help="<1 zooms out to show more of the cover (json: label_zoom)")
+    ap.add_argument("--title-gap", type=float, default=1.2,
+                    help="front title baseline distance above the fold, mm (descenders must clear the crease)")
     ap.add_argument("--no-times", action="store_true")
     ap.add_argument("--no-guides", action="store_true")
     a = ap.parse_args()
@@ -169,10 +171,10 @@ def main():
     front_band = crop_to(cover, W, min(W, H)).crop((0, px(F - 7), px(W), px(F)))
     t_ink = (1, 1, 1) if luminance(front_band) < 0.6 else (0.14, 0.1, 0.09)
     x = 2.5
-    x += text(x, F - 3.2, f"{A['artist']}  ", "serif", 8.5, t_ink, shadow=t_ink == (1, 1, 1))
+    x += text(x, F - a.title_gap, f"{A['artist']}  ", "serif", 8.5, t_ink, shadow=t_ink == (1, 1, 1))
     if A.get("artist_zh"):
-        x += text(x, F - 3.2, f"{A['artist_zh']}  ", "song", 8.5, t_ink, shadow=t_ink == (1, 1, 1))
-    text(x, F - 3.2, A.get("title_zh", ""), "song", 8.5, t_ink, shadow=t_ink == (1, 1, 1))
+        x += text(x, F - a.title_gap, f"{A['artist_zh']}  ", "song", 8.5, t_ink, shadow=t_ink == (1, 1, 1))
+    text(x, F - a.title_gap, A.get("title_zh", ""), "song", 8.5, t_ink, shadow=t_ink == (1, 1, 1))
 
     # ---- back: tracklist
     top = F + over + 4.2
