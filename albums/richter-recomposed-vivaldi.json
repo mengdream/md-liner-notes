@@ -1,0 +1,108 @@
+{
+  "slug": "richter-recomposed-vivaldi",
+  "title": "Recomposed: Vivaldi's Four Seasons",
+  "title_zh": "重构维瓦尔第《四季》",
+  "artist": "Max Richter",
+  "performers": "Daniel Rowland, violin · Stift Festival Orchestra",
+  "label": "Challenge Classics",
+  "released": "2024-03-01",
+  "recorded": "2026.04",
+  "total": "43:11",
+  "md_mode": "SP Stereo",
+  "cover": "cover.jpg",
+  "intro": "Max Richter 把维瓦尔第的《四季》当成一件被听得太熟的旧物：拆开，删掉大约四分之三的原作素材，只留下他真正想抓住的几个片段，再用循环、相位和极简主义式的推进重新写成一部新作品。熟悉的曲子被重新编织，细节纤毫毕现；动态之大、画面之丰富，和他那张用来助眠的 Sleep 几乎是两个人。这里是 Daniel Rowland 与 Stift Festival Orchestra 的录音。",
+  "credits": [
+    "Max Richter — composer (after Antonio Vivaldi)",
+    "Daniel Rowland — violin",
+    "Stift Festival Orchestra"
+  ],
+  "tracks": [
+    {
+      "n": 1,
+      "title": "Spring 0",
+      "time": "0:38"
+    },
+    {
+      "n": 2,
+      "title": "Spring 1",
+      "time": "2:24",
+      "note": "整张最出圈的一首，也是进入这张专辑最好的入口。春天的动机被提炼出来反复循环、向前推，像一束光被折射成更现代的几何图形。巴洛克原来也可以这么“当代”。"
+    },
+    {
+      "n": 3,
+      "title": "Spring 2",
+      "time": "3:40"
+    },
+    {
+      "n": 4,
+      "title": "Spring 3",
+      "time": "3:00"
+    },
+    {
+      "n": 5,
+      "title": "Summer 1",
+      "time": "3:40"
+    },
+    {
+      "n": 6,
+      "title": "Summer 2",
+      "time": "4:12"
+    },
+    {
+      "n": 7,
+      "title": "Summer 3",
+      "time": "3:17",
+      "note": "力量感和紧张感都很强，弦乐的推进几乎要把空间撑开。很适合用来听一套器材对速度、密度和张力的表现。"
+    },
+    {
+      "n": 8,
+      "title": "Autumn 0",
+      "time": "0:21"
+    },
+    {
+      "n": 9,
+      "title": "Autumn 1",
+      "time": "6:15"
+    },
+    {
+      "n": 10,
+      "title": "Autumn 2",
+      "time": "3:07"
+    },
+    {
+      "n": 11,
+      "title": "Autumn 3",
+      "time": "1:29",
+      "note": "颜色更深、更暗，听到的不只是“丰收”，还带一点宿命感和回望感。"
+    },
+    {
+      "n": 12,
+      "title": "Winter 1",
+      "time": "3:03"
+    },
+    {
+      "n": 13,
+      "title": "Winter 2",
+      "time": "3:18"
+    },
+    {
+      "n": 14,
+      "title": "Winter 3",
+      "time": "4:42"
+    }
+  ],
+  "essays": [
+    {
+      "h": "Max Richter",
+      "p": "德裔英籍作曲家，1966 年生于德国哈默尔恩，在英国长大。先后在爱丁堡大学和伦敦皇家音乐学院学习，后来到意大利跟随 Luciano Berio 深造。他的作品处在当代古典、极简主义、电子氛围和影视配乐的交界处。很多人是从八小时的 Sleep 认识他的，以为他只是“适合夜晚”的作曲家；Recomposed 是他的另一面：节奏更强，动态更大，弦乐纹理更锋利。"
+    },
+    {
+      "h": "他怎么“重构”四季",
+      "p": "这不是改编，也不是翻奏。维瓦尔第的协奏曲靠主题对比往前走，Richter 则抓住一个小动机，让它不断旋转、加压、叠层。所以听起来画面感特别强，不只是旋律好听，更像镜头的推拉、光线的变化和色块的移动。一句话：他不是在演奏维瓦尔第，而是隔着三百年和维瓦尔第对话。"
+    },
+    {
+      "h": "几个版本",
+      "p": "最早的录音是 2012 年 Deutsche Grammophon 出的 Daniel Hope 版（Konzerthaus Kammerorchester Berlin，André de Ridder 指挥）。2022 年 Richter 自己又做了 The New Four Seasons，用 Elena Urioste 和 Chineke! Orchestra，换上古乐器、羊肠弦和老式合成器，质感更粗粝。这张是 2024 年 Daniel Rowland 与 Stift Festival Orchestra 的版本。想接着往下听，可以试 Infra 和 Memoryhouse。"
+    }
+  ]
+}
