@@ -1,0 +1,4 @@
+pymupdf
+qrcode[pil]
+pillow
+fonttools
