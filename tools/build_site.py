@@ -59,7 +59,7 @@ def page(title, body, extra_head=""):
 def album_page(a):
     tracks = "".join(
         f'<li id="t{t["n"]}"><div class="tr"><span class="n">{t["n"]:02d}</span>'
-        f'<span class="t">{e(t["title"])}</span><span class="d">{e(t["time"])}</span></div>'
+        f'<span class="t">{e(t["title"])}</span><span class="d">{e(t.get("time", ""))}</span></div>'
         + (f'<p class="cr">{e(t["credit"])}</p>' if t.get("credit") else "")
         + (f'<p>{e(t["note"])}</p>' if t.get("note") else "") + "</li>"
         for t in a["tracks"])

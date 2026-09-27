@@ -133,7 +133,13 @@ def main():
 
     album_path = Path(a.album)
     A = json.loads(album_path.read_text())
-    cover = Image.open(album_path.parent / A["slug"] / A["cover"]).convert("RGB")
+    def img(name):
+        """Prefer the local full-resolution copy (<name>@print.jpg, git-ignored) over the 800px web image."""
+        p = album_path.parent / A["slug"] / name
+        hi = p.with_name(p.stem + "@print" + p.suffix)
+        return Image.open(hi if hi.exists() else p).convert("RGB")
+
+    cover = img(A["cover"])
     W, H, F = a.width, a.height, a.fold
     LW, LH = (float(v) for v in a.label.lower().split("x"))
     X0, Y0 = 11.0, 13.8                     # same origin as the hand-made files
@@ -180,20 +186,30 @@ def main():
         x += text(x, F - a.title_gap, f"{A['artist_zh']}  ", "song", 8.5, t_ink, shadow=t_ink == (1, 1, 1))
     text(x, F - a.title_gap, A.get("title_zh", ""), "song", 8.5, t_ink, shadow=t_ink == (1, 1, 1))
 
+    # optional title block on the front: [{text, font, size, x, y, color?}], y = baseline mm from top
+    for ft in A.get("front_text", []):
+        c = tuple(ft.get("color", t_ink))
+        text(ft["x"], ft["y"], ft["text"], ft.get("font", "serif"), ft["size"], c, shadow=c == (1, 1, 1))
+
     # ---- back: tracklist
     top = F + over + 4.2
-    n = len(A["tracks"])
+    two = bool(A.get("cover_track_credit"))
+    n = sum(2 if two and t.get("credit") else 1 for t in A["tracks"]) + (0.4 * len(A["tracks"]) if two else 0)
     avail = H - top - 3.5
     lead = min(3.6, avail / n)
     size = min(8.0, lead / 25.4 * 72 / 1.3)                # leading ≈ 1.3 × font size
-    for i, t in enumerate(A["tracks"]):
-        y = top + i * lead
+    y = top - lead
+    for t in A["tracks"]:
+        y += lead * (1.4 if two else 1)
         num = f"{t['n']}."
         x = 2.4
         x += text(x, y, num, "serif", size, ink) + 0.6
         x += text(x, y, t["title"], "song" if has_cjk(t["title"]) else "serif", size, ink)
         if not a.no_times and t.get("time"):
             text(x + 1.4, y, t["time"], "serif_i", size * 0.85, sub)
+        if two and t.get("credit"):
+            y += lead * 0.9
+            text(2.4 + 3.2, y, t["credit"], "serif_i", size * 0.82, sub)
 
     # ---- QR -> liner notes page, bottom-right, with a small paper-white pad for reliable scanning
     url = f"{a.base_url.rstrip('/')}/albums/{A['slug']}/"
@@ -211,7 +227,7 @@ def main():
     ly = H + 16.8
     lcx, lcy = (float(v) for v in (a.label_focus or A.get("label_focus", "0.5,0.5")).split(","))
     lzoom = a.label_zoom or A.get("label_zoom", 1.0)
-    label_src = cover
+    label_src = img(A["label_image"]) if A.get("label_image") else cover
     for box in A.get("label_hide", []):              # e.g. record-label logo that pokes into the crop
         label_src = patch_out(label_src, box)
     page.insert_image(R(0, ly, LW, LH), stream=jpg(label_image(label_src, LW, LH, lcx, lcy, lzoom)))
