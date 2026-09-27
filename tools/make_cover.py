@@ -105,6 +105,10 @@ def jpg(img):
     return b.getvalue()
 
 
+def has_cjk(s):
+    return any(ord(c) >= 0x2E80 for c in s)
+
+
 def luminance(img):
     r, g, b = ImageStat.Stat(img.convert("RGB")).mean
     return (0.299 * r + 0.587 * g + 0.114 * b) / 255
@@ -187,7 +191,7 @@ def main():
         num = f"{t['n']}."
         x = 2.4
         x += text(x, y, num, "serif", size, ink) + 0.6
-        x += text(x, y, t["title"], "serif", size, ink)
+        x += text(x, y, t["title"], "song" if has_cjk(t["title"]) else "serif", size, ink)
         if not a.no_times and t.get("time"):
             text(x + 1.4, y, t["time"], "serif_i", size * 0.85, sub)
 

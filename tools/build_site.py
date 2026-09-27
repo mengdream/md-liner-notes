@@ -35,6 +35,8 @@ ol.tracks li:target{background:var(--card);margin:0 -12px;padding:14px 12px;bord
 .tr .t{flex:1;font-weight:600}
 .tr .d{font:13px ui-monospace,Menlo,monospace;color:var(--mute)}
 .tracks p{margin:4px 0 0 34px;color:var(--fg);opacity:.86;font-size:15px}
+.tracks p.cr{margin-top:0;font-size:12px;color:var(--mute);opacity:1}
+.links a{display:inline-block;margin:0 14px 6px 0}
 .credits{font-size:14px;color:var(--mute);padding-left:18px}
 .essay h3{font-size:17px;margin:22px 0 6px}
 .essay p{margin:0}
@@ -58,6 +60,7 @@ def album_page(a):
     tracks = "".join(
         f'<li id="t{t["n"]}"><div class="tr"><span class="n">{t["n"]:02d}</span>'
         f'<span class="t">{e(t["title"])}</span><span class="d">{e(t["time"])}</span></div>'
+        + (f'<p class="cr">{e(t["credit"])}</p>' if t.get("credit") else "")
         + (f'<p>{e(t["note"])}</p>' if t.get("note") else "") + "</li>"
         for t in a["tracks"])
     credits = "".join(f"<li>{e(c)}</li>" for c in a.get("credits", []))
@@ -71,6 +74,7 @@ def album_page(a):
 <div class="by">{e(a['artist'])}{' · ' + e(a['artist_zh']) if a.get('artist_zh') else ''}<br>{e(a.get('performers',''))}</div></div></div>
 <p class="intro">{e(a.get('intro',''))}</p>
 <div class="meta">MD · {e(a.get('md_mode',''))} · 录于 {e(a.get('recorded',''))} · 总长 {e(a.get('total',''))}</div>
+{'<h2>歌词</h2><div class="links">' + ''.join(f'<a href="{e(u)}">{e(n)}</a>' for n, u in a['lyrics_links']) + '</div>' if a.get('lyrics_links') else ''}
 <h2>Tracks</h2><ol class="tracks">{tracks}</ol>
 {'<h2>Credits</h2><ul class="credits">' + credits + '</ul>' if credits else ''}
 {'<h2>Notes</h2>' + essays if essays else ''}
