@@ -1,0 +1,109 @@
+{
+  "slug": "bohemianvoodoo-moments",
+  "title": "MOMENTS",
+  "artist": "bohemianvoodoo",
+  "performers": "bashiry · 木村イオリ · Nassy · 山本拓矢",
+  "label": "Playwright",
+  "released": "2019-03-20",
+  "recorded": "2025.01",
+  "total": "52:12",
+  "md_mode": "SP Stereo",
+  "cover": "cover.jpg",
+  "design_files": [
+    "Moments.ai"
+  ],
+  "lyrics_links": [],
+  "intro": "一张反复在听、越听越好听的唱片。起初吸引人的是那几首轻缓的曲子，听得多了，慢慢也能接住节奏更快、更有力量的那些。吉他、钢琴、贝斯、鼓，各种能量在里面交织；人跟着乐曲走，像是在一点点发现这些能量，也发现自己身上的另一种可能。拿它和 Jacques Loussier 那种由古典改编的爵士相比：古典改编的乐器之间没有这么自由地交叉，却有一条来自原作的内在旋律和结构托着；日本的这支乐队则放得更开。",
+  "credits": [
+    "bohemianvoodoo — 制作",
+    "木村イオリ — piano & keyboard",
+    "bashiry — guitar",
+    "Nassy — bass",
+    "山本拓矢 — drums",
+    "織田祐亮（TRI4TH） — trumpet（4、11）",
+    "四方田テムジン直人 — trumpet（7）",
+    "馬場桜佑 — trombone（4、11）"
+  ],
+  "tracks": [
+    {
+      "n": 1,
+      "title": "石の教会",
+      "time": "4:38",
+      "note": "开篇曲，也是这张专辑拍了 MV 的一首。旋律抒情，带一点神秘感。它原本是木村イオリ为弟弟在轻井泽石の教会举行婚礼时写的惊喜之作，录音前两周才在排练里改定编曲。"
+    },
+    {
+      "n": 2,
+      "title": "Gypsy Funk",
+      "time": "4:54",
+      "note": "人如其名：吉普赛式的旋律色彩，底下是放克的律动。"
+    },
+    {
+      "n": 3,
+      "title": "Once upon a moon",
+      "time": "5:03"
+    },
+    {
+      "n": 4,
+      "title": "Theme of the \"Strollin'\"",
+      "time": "4:39"
+    },
+    {
+      "n": 5,
+      "title": "Casa Batllo",
+      "time": "4:25",
+      "note": "曲名取自巴塞罗那高迪设计的巴特罗之家。拉丁节奏里透着一点梦幻感，是整张专辑“以地名写画面”的一个例子。"
+    },
+    {
+      "n": 6,
+      "title": "A Seaside Hut",
+      "time": "4:53"
+    },
+    {
+      "n": 7,
+      "title": "Anise",
+      "time": "5:08"
+    },
+    {
+      "n": 8,
+      "title": "Painagama",
+      "time": "3:27"
+    },
+    {
+      "n": 9,
+      "title": "Montage",
+      "time": "4:54"
+    },
+    {
+      "n": 10,
+      "title": "Morning Glow",
+      "time": "4:49"
+    },
+    {
+      "n": 11,
+      "title": "The Moments",
+      "time": "5:23"
+    }
+  ],
+  "essays": [
+    {
+      "h": "bohemianvoodoo",
+      "p": "2008 年在横滨组成的器乐四人组：bashiry（吉他）、木村イオリ（钢琴、键盘）、Nassy（贝斯）、山本拓矢（鼓）。创团时的鼓手是井上孝利，2013 年由山本拓矢接替。2010 年发行首张全长专辑 Lapis Lazuli，2012 年起在 Playwright 厂牌发片，之后有 SCENES（2012）和 Aromatic（2014）。2014 年登上 Blue Note Tokyo 之后人气明显上升；现场精选 echoes 拿下 JAZZ JAPAN AWARD 2017 的アルバム・オブ・ザ・イヤー（ニュー・ジャズ部门）。他们的音乐没有歌词，旋律性却很强，常被说成像乐器在唱歌。"
+    },
+    {
+      "h": "MOMENTS 这张",
+      "p": "2019 年的第四张专辑，也是 Aromatic 之后隔了四年多的原创录音。发行方 diskunion 的介绍是：以爵士、拉丁、放克为底，仍保留日本人的“歌心”，旋律优美、合奏自由奔放。这次请来 TRI4TH 的小号手織田祐亮等几位铜管客席，音域和色彩都更宽。Nassy 在 CINRA 的访谈里说，这张的关键词是“礼物”，MOMENTS 指的是乐队这些年一起度过、一起分享过的瞬间；木村イオリ则说，不想再被叫作“クラブジャズ”了。终曲 The Moments 由 bashiry 写成，是送给一位正在和疾病抗争的朋友的。"
+    },
+    {
+      "h": "日本新生代器乐爵士",
+      "p": "2010 年代，日本冒出一批以器乐为主的年轻乐队，把爵士的即兴与和声，和摇滚的力度、流行的旋律、拉丁和放克的律动揉在一起，早年常被归入“都市爵士”“俱乐部爵士”。2012 年成立的 Playwright 就是专做这类年轻爵士乐手的厂牌，bohemianvoodoo 和 fox capture plan 都在这里，两队还合出过两张分轨 EP Color & Monochrome（2013、2016）。这类音乐没有人声，曲名又常取自地点和场景（石の教会、Casa Batllo、A Seaside Hut），听的人很容易在脑子里自己放出画面，情绪也由自己当下的心境来填。"
+    },
+    {
+      "h": "延伸聆听",
+      "p": "同一脉络里，可以先听 fox capture plan：2011 年组成的钢琴三重奏，自称“現代版ジャズ・ロック”，第二张 BRIDGE 拿过 JAZZ JAPAN AWARD 2013 新人部门的年度专辑，WALL、CAPTURISM 也值得一听。京都的四人乐队 jizue 更靠近后摇，钢琴和吉他两条旋律线交替，可以听 journal（2013）和 gallery（2019，四位成员各制作两首）。TOCONOMA、JABBERLOOP 偏放克和电子。如果喜欢 bohemianvoodoo 抒情的那一面，也可以往回听福居良的 Scenery（1976）：他 22 岁才开始自学钢琴，这张在札幌录下的首作多年后被海外听众重新发现，旋律温暖、真诚。爵士的源头，则有 Miles Davis 的 Kind of Blue 和 Keith Jarrett 的 The Köln Concert。"
+    }
+  ],
+  "related": [
+    "bohemianvoodoo-scenes",
+    "loussier-goldberg"
+  ]
+}

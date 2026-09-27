@@ -23,7 +23,8 @@ def main():
     rows = []
     for a in sorted(albums, key=lambda a: a.get("recorded", ""), reverse=True):
         url_f = ROOT / "private" / f"{a['slug']}.chat-url.txt"
-        chat = f"[对话]({url_f.read_text().strip()})" if url_f.exists() else ""
+        urls = url_f.read_text().split() if url_f.exists() else []
+        chat = " ".join(f"[对话{i + 1 if len(urls) > 1 else ''}]({u})" for i, u in enumerate(urls))
         files = "<br>".join(a.get("design_files", []))
         name = f"{a['title_zh']} {a['title']}" if a.get("title_zh") else a["title"]
         rows.append(f"| {name} | {a.get('artist_zh') or a['artist']} | {a.get('recorded','')} | {files} "

@@ -1,0 +1,205 @@
+{
+  "slug": "gould-goldberg-1981",
+  "title": "Bach: The Goldberg Variations (1981 Recording)",
+  "title_zh": "哥德堡变奏曲（1981 年录音）",
+  "artist": "Glenn Gould",
+  "artist_zh": "格伦·古尔德",
+  "performers": "Glenn Gould, piano · 1981 年数字录音",
+  "label": "CBS Masterworks / Sony Classical",
+  "released": "1982-09-02",
+  "recorded": "2025.01",
+  "total": "51:17",
+  "md_mode": "SP Stereo",
+  "cover": "cover.jpg",
+  "design_files": [
+    "Gould Bash Varition.ai"
+  ],
+  "lyrics_links": [],
+  "intro": "听《哥德堡变奏曲》，最中意的一直是古尔德 1981 年这一版。这个版本听得很熟之后，才开始去找这部作品的其他录音，后来找到了 Jacques Loussier Trio 的爵士版和 Nevermind 的古乐室内乐版。这是古尔德第二次录这部作品，离他 1955 年的成名录音隔了二十六年：速度放慢了，少了年轻时的锋芒和躁动，多了一份深沉从容。评论说它更严肃，也更柔情，带着秋天的气息，对位清晰，处处克制。",
+  "credits": [
+    "Johann Sebastian Bach — composer",
+    "Glenn Gould — piano"
+  ],
+  "tracks": [
+    {
+      "n": 1,
+      "title": "Aria",
+      "time": "3:05",
+      "note": "一切从这里开始。30 段变奏都建在这段 Aria 的低音线上，听熟了它，后面的每一段都能认出是从哪里长出来的。"
+    },
+    {
+      "n": 2,
+      "title": "Variation 1 a 1 Clav.",
+      "time": "1:10"
+    },
+    {
+      "n": 3,
+      "title": "Variation 2 a 1 Clav.",
+      "time": "0:49"
+    },
+    {
+      "n": 4,
+      "title": "Variation 3 a 1 Clav. Canone all'Unisono",
+      "time": "1:31"
+    },
+    {
+      "n": 5,
+      "title": "Variation 4 a 1 Clav.",
+      "time": "0:50"
+    },
+    {
+      "n": 6,
+      "title": "Variation 5 a 1 ovvero 2 Clav.",
+      "time": "0:37"
+    },
+    {
+      "n": 7,
+      "title": "Variation 6 a 1 Clav. Canone alla Seconda",
+      "time": "0:40"
+    },
+    {
+      "n": 8,
+      "title": "Variation 7 a 1 ovvero 2 Clav.",
+      "time": "1:16"
+    },
+    {
+      "n": 9,
+      "title": "Variation 8 a 2 Clav.",
+      "time": "0:54"
+    },
+    {
+      "n": 10,
+      "title": "Variation 9 a 1 Clav. Canone alla Terza",
+      "time": "0:59"
+    },
+    {
+      "n": 11,
+      "title": "Variation 10 a 1 Clav. Fughetta",
+      "time": "1:04"
+    },
+    {
+      "n": 12,
+      "title": "Variation 11 a 2 Clav.",
+      "time": "0:53"
+    },
+    {
+      "n": 13,
+      "title": "Variation 12 Canone alla Quarta",
+      "time": "1:38"
+    },
+    {
+      "n": 14,
+      "title": "Variation 13 a 2 Clav.",
+      "time": "2:38"
+    },
+    {
+      "n": 15,
+      "title": "Variation 14 a 2 Clav.",
+      "time": "1:05"
+    },
+    {
+      "n": 16,
+      "title": "Variation 15 a 1 Clav. Canone alla Quinta. Andante",
+      "time": "5:01"
+    },
+    {
+      "n": 17,
+      "title": "Variation 16 a 1 Clav. Overture",
+      "time": "1:38"
+    },
+    {
+      "n": 18,
+      "title": "Variation 17 a 2 Clav.",
+      "time": "0:54"
+    },
+    {
+      "n": 19,
+      "title": "Variation 18 a 1 Clav. Canone alla Sesta",
+      "time": "1:03"
+    },
+    {
+      "n": 20,
+      "title": "Variation 19 a 1 Clav.",
+      "time": "1:03"
+    },
+    {
+      "n": 21,
+      "title": "Variation 20 a 2 Clav.",
+      "time": "0:50"
+    },
+    {
+      "n": 22,
+      "title": "Variation 21 Canone alla Settima",
+      "time": "2:13"
+    },
+    {
+      "n": 23,
+      "title": "Variation 22 a 1 Clav. alla breve",
+      "time": "1:03"
+    },
+    {
+      "n": 24,
+      "title": "Variation 23 a 2 Clav.",
+      "time": "0:58"
+    },
+    {
+      "n": 25,
+      "title": "Variation 24 Canone all' Ottava a 1 Clav.",
+      "time": "1:44"
+    },
+    {
+      "n": 26,
+      "title": "Variation 25 a 2 Clav.",
+      "time": "6:02"
+    },
+    {
+      "n": 27,
+      "title": "Variation 26 a 2 Clav.",
+      "time": "0:52"
+    },
+    {
+      "n": 28,
+      "title": "Variation 27 a 2 Clav. Canone alla Nona",
+      "time": "1:21"
+    },
+    {
+      "n": 29,
+      "title": "Variation 28 a 2 Clav.",
+      "time": "1:03"
+    },
+    {
+      "n": 30,
+      "title": "Variation 29 a 1 ovvero 2 Clav.",
+      "time": "1:02"
+    },
+    {
+      "n": 31,
+      "title": "Variation 30 a 1 Clav. Quodlibet",
+      "time": "1:30"
+    },
+    {
+      "n": 32,
+      "title": "Aria da capo",
+      "time": "3:48",
+      "note": "绕完 30 段变奏，同一段 Aria 原样再奏一遍，听起来却已经不一样了，像走完一段路回到出发的地方。"
+    }
+  ],
+  "essays": [
+    {
+      "h": "1955 与 1981",
+      "p": "1955 年，二十出头的古尔德用《哥德堡变奏曲》做了自己的首张录音，全曲只有 38 分钟多，快、亮、锋利。1981 年 4 月到 5 月，他在纽约的 CBS 30th Street Studio 重录了这部作品，这次是数字立体声录音，全长约 51 分钟。这是他最后一张录音室专辑，也是这间录音室关闭前录的最后一张唱片。唱片在 1982 年 9 月发行，不久之后古尔德去世。同一个人、同一部作品，隔了二十六年，从青春的炫技走到了晚秋般的沉思。"
+    },
+    {
+      "h": "一段 Aria，三十段变奏",
+      "p": "这部作品由一段安静的 Aria 和 30 段变奏组成，最后 Aria 再原样奏一遍。变奏之间性格差别很大：有轻快的舞曲，有悲怆的小调慢板，有复杂的对位，也有炫技的段落。看曲目表会发现，每隔两段就有一段卡农（Canone），从同度一路排到九度，第 30 段则是一首 Quodlibet。古尔德 1981 年的演奏把这些结构一层层清楚地摆出来，钢琴听起来既是在讲结构，也像是他自己的内心独白。"
+    },
+    {
+      "h": "同一首曲子，三种走法",
+      "p": "这张和另外两张 MD 录的是同一部作品：巴赫的《哥德堡变奏曲》，一段 Aria 主题、30 段变奏，最后 Aria 原样再奏一遍。从宁静的开头出发，穿过轻快、悲怆、复杂的对位和炫技，最后回到起点，像走完一段心灵旅程。三个版本走法不同：古尔德 1981 年的钢琴独奏，把结构的纯粹和演奏者内心的独白放到最前面；Jacques Loussier Trio 的爵士三重奏，给熟悉的旋律加上新的律动和即兴的惊喜，充满活力；Nevermind 的古乐四重奏，让长笛、小提琴、古大提琴和键盘各自接过一个声部，摆脱了钢琴的节奏感，更平缓，像在 18 世纪的沙龙里听一场对话。先把古尔德听熟，再去听另外两版，每次都能听出新的细节。"
+    }
+  ],
+  "related": [
+    "loussier-goldberg",
+    "nevermind-goldberg"
+  ]
+}

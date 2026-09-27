@@ -56,7 +56,17 @@ def page(title, body, extra_head=""):
 <body><main>{body}</main></body></html>"""
 
 
-def album_page(a):
+def related_html(a, by_slug):
+    rel = [by_slug[s] for s in a.get("related", []) if s in by_slug]
+    if not rel:
+        return ""
+    items = "".join(
+        f'<a href="../{r["slug"]}/"><img src="../{r["slug"]}/{r["cover"]}" alt=""><br><b>{e(r["title"])}</b><br>'
+        f'<span style="color:var(--mute)">{e(r["artist"])}</span></a>' for r in rel)
+    return f'<h2>相关专辑</h2><div class="grid">{items}</div>'
+
+
+def album_page(a, by_slug):
     tracks = "".join(
         f'<li id="t{t["n"]}"><div class="tr"><span class="n">{t["n"]:02d}</span>'
         f'<span class="t">{e(t["title"])}</span><span class="d">{e(t.get("time", ""))}</span></div>'
@@ -78,21 +88,21 @@ def album_page(a):
 <h2>Tracks</h2><ol class="tracks">{tracks}</ol>
 {'<h2>Credits</h2><ul class="credits">' + credits + '</ul>' if credits else ''}
 {'<h2>Notes</h2>' + essays if essays else ''}
+{related_html(a, by_slug)}
 <footer><a href="../../">← 全部 MD</a></footer>"""
     return page(f"{a['title']} — MD", body)
 
 
 def main():
-    albums = []
-    for f in sorted(ALBUMS.glob("*.json")):
-        a = json.loads(f.read_text())
+    albums = [json.loads(f.read_text()) for f in sorted(ALBUMS.glob("*.json"))]
+    by_slug = {a["slug"]: a for a in albums}
+    for a in albums:
         out = DOCS / "albums" / a["slug"]
         out.mkdir(parents=True, exist_ok=True)
-        (out / "index.html").write_text(album_page(a))
+        (out / "index.html").write_text(album_page(a, by_slug))
         src_cover = ALBUMS / a["slug"] / a["cover"]
         if src_cover.exists():
             shutil.copy(src_cover, out / a["cover"])
-        albums.append(a)
     albums.sort(key=lambda a: a.get("recorded", ""), reverse=True)
     grid = "".join(
         f'<a href="albums/{a["slug"]}/"><img src="albums/{a["slug"]}/{a["cover"]}" alt=""><br>'

@@ -1,0 +1,205 @@
+{
+  "slug": "nevermind-goldberg",
+  "title": "J. S. Bach: Goldberg Variations",
+  "title_zh": "哥德堡变奏曲（古乐室内乐版）",
+  "artist": "Nevermind",
+  "performers": "Anna Besson, flute · Louis Creac'h, violin · Robin Pharo, viola da gamba · Jean Rondeau, harpsichord & organ",
+  "label": "Alpha Classics",
+  "released": "2025-02-07",
+  "recorded": "2025.03",
+  "total": "98:12",
+  "md_mode": "LP2 Stereo",
+  "cover": "cover.jpg",
+  "design_files": [],
+  "lyrics_links": [],
+  "intro": "听熟了古尔德 1981 年的版本之后，去找《哥德堡变奏曲》的其他录音，找到了这一版。法国古乐团体 Nevermind 用长笛、小提琴、古大提琴和羽管键琴（部分用管风琴）来演奏这部原本写给键盘的作品。这样一来，钢琴那种颗粒分明的节奏感没有了，整体更平缓，乐曲有了新的质感，韵律和节奏却依然井然有序。每件乐器接过原曲复调里的一个声部，一段段变奏像是被重新照亮。",
+  "credits": [
+    "Johann Sebastian Bach — composer",
+    "Robin Pharo & Jean Rondeau — arrangement",
+    "Anna Besson — flute",
+    "Louis Creac'h — violin",
+    "Robin Pharo — viola da gamba",
+    "Jean Rondeau — harpsichord, organ"
+  ],
+  "tracks": [
+    {
+      "n": 1,
+      "title": "Aria",
+      "time": "4:32",
+      "note": "开篇的 Aria 交给长笛来唱，带出一种羽管键琴给不了的温柔和脆弱。"
+    },
+    {
+      "n": 2,
+      "title": "Var. I a 1 Clav.",
+      "time": "2:11"
+    },
+    {
+      "n": 3,
+      "title": "Var. II a 1 Clav.",
+      "time": "2:05"
+    },
+    {
+      "n": 4,
+      "title": "Var. III. Canone all’Unisuono. a 1 Clav.",
+      "time": "2:14"
+    },
+    {
+      "n": 5,
+      "title": "Var. IV a 1 Clav.",
+      "time": "1:20"
+    },
+    {
+      "n": 6,
+      "title": "Var. V a 1 ô vero 2 Clav.",
+      "time": "1:45"
+    },
+    {
+      "n": 7,
+      "title": "Var. VI. Canone alla Seconda. a 1 Clav.",
+      "time": "2:40"
+    },
+    {
+      "n": 8,
+      "title": "Var. VII a 1 ô vero 2 Clav. al tempo di Giga",
+      "time": "1:51"
+    },
+    {
+      "n": 9,
+      "title": "Var. VIII a 2 Clav.",
+      "time": "3:21"
+    },
+    {
+      "n": 10,
+      "title": "Var. IX. Canone alla Terza. a 1 Clav.",
+      "time": "2:52"
+    },
+    {
+      "n": 11,
+      "title": "Var. X. Fughetta. a 1 Clav.",
+      "time": "1:33"
+    },
+    {
+      "n": 12,
+      "title": "Var. XI a 2 Clav.",
+      "time": "2:08"
+    },
+    {
+      "n": 13,
+      "title": "Var. XII a 1 Clav. Canone alla Quarta. a 1 Clav. in moto contrario",
+      "time": "4:41"
+    },
+    {
+      "n": 14,
+      "title": "Var. XIII a 2 Clav.",
+      "time": "7:27"
+    },
+    {
+      "n": 15,
+      "title": "Var. XIV a 2 Clav.",
+      "time": "2:19"
+    },
+    {
+      "n": 16,
+      "title": "Var. XV. Canone alla Quinta. a 1 Clav.: Andante",
+      "time": "6:03"
+    },
+    {
+      "n": 17,
+      "title": "Var. XVI. Ouverture. a 1 Clav.",
+      "time": "2:57"
+    },
+    {
+      "n": 18,
+      "title": "Var. XVII a 2 Clav.",
+      "time": "3:42"
+    },
+    {
+      "n": 19,
+      "title": "Var. XVIII. Canone alla Sesta. a 1 Clav.",
+      "time": "2:25"
+    },
+    {
+      "n": 20,
+      "title": "Var. XIX a 1 Clav.",
+      "time": "1:17"
+    },
+    {
+      "n": 21,
+      "title": "Var. XX a 2 Clav.",
+      "time": "2:40"
+    },
+    {
+      "n": 22,
+      "title": "Var. XXI. Canone alla Settima. a 1 Clav.",
+      "time": "3:20"
+    },
+    {
+      "n": 23,
+      "title": "Var. XXII a 1 Clav. alla breve",
+      "time": "1:33"
+    },
+    {
+      "n": 24,
+      "title": "Var. XXIII a 2 Clav.",
+      "time": "2:33"
+    },
+    {
+      "n": 25,
+      "title": "Var. XXIV. Canone all’Ottava. a 1 Clav.",
+      "time": "2:48"
+    },
+    {
+      "n": 26,
+      "title": "Var. XXV a 2 Clav.: Adagio",
+      "time": "9:19"
+    },
+    {
+      "n": 27,
+      "title": "Var. XXVI a 2 Clav.",
+      "time": "2:30"
+    },
+    {
+      "n": 28,
+      "title": "Var. XXVII. Canone alla Nona. a 2 Clav.",
+      "time": "2:03"
+    },
+    {
+      "n": 29,
+      "title": "Var. XXVIII a 2 Clav.",
+      "time": "2:00"
+    },
+    {
+      "n": 30,
+      "title": "Var. XXIX a 1 ô vero 2 Clav.",
+      "time": "2:32"
+    },
+    {
+      "n": 31,
+      "title": "Var. XXX. Quodlibet. a 1 Clav.",
+      "time": "2:18"
+    },
+    {
+      "n": 32,
+      "title": "Aria da Capo",
+      "time": "5:13"
+    }
+  ],
+  "essays": [
+    {
+      "h": "Nevermind 与这版改编",
+      "p": "Nevermind 是 2013 年在法国成立的古乐四重奏：长笛 Anna Besson、小提琴 Louis Creac'h、古大提琴 Robin Pharo、羽管键琴 Jean Rondeau。这版《哥德堡变奏曲》由 Robin Pharo 和 Jean Rondeau 主导改编，2025 年 2 月由 Alpha Classics 发行，两张 CD，将近一百分钟。它没有把变奏当作键盘独奏练习来处理，而是写成了带通奏低音的巴洛克室内乐：古大提琴和羽管键琴打底，古大提琴时不时离开低音线独奏一段；长笛和小提琴在上面唱旋律，加上独奏键盘做不到的装饰。"
+    },
+    {
+      "h": "从对位里开出的花园",
+      "p": "原作的复调织体里本来就藏着几条同时进行的线，这版改编把每条线交给一件乐器，每条旋律都有了那件乐器特有的美感。听起来像一组 18 世纪风格的室内乐，各段变奏之间有对话，也有音色的对比。有乐评把这张唱片形容为一座音乐色彩的花园。它也说明巴赫这部作品有多大的可塑性：换一套乐器，情感的广度和结构的深度都还在。"
+    },
+    {
+      "h": "同一首曲子，三种走法",
+      "p": "这张和另外两张 MD 录的是同一部作品：巴赫的《哥德堡变奏曲》，一段 Aria 主题、30 段变奏，最后 Aria 原样再奏一遍。从宁静的开头出发，穿过轻快、悲怆、复杂的对位和炫技，最后回到起点，像走完一段心灵旅程。三个版本走法不同：古尔德 1981 年的钢琴独奏，把结构的纯粹和演奏者内心的独白放到最前面；Jacques Loussier Trio 的爵士三重奏，给熟悉的旋律加上新的律动和即兴的惊喜，充满活力；Nevermind 的古乐四重奏，让长笛、小提琴、古大提琴和键盘各自接过一个声部，摆脱了钢琴的节奏感，更平缓，像在 18 世纪的沙龙里听一场对话。先把古尔德听熟，再去听另外两版，每次都能听出新的细节。"
+    }
+  ],
+  "related": [
+    "gould-goldberg-1981",
+    "loussier-goldberg"
+  ]
+}

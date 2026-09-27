@@ -1,0 +1,189 @@
+{
+  "slug": "interstellar",
+  "title": "Interstellar (Original Motion Picture Soundtrack) [Expanded Edition]",
+  "title_zh": "星际穿越",
+  "artist": "Hans Zimmer",
+  "artist_zh": "汉斯·季默",
+  "performers": "电影原声 · 扩展版（两张 MD）",
+  "label": "WaterTower Music",
+  "released": "2014-11",
+  "recorded": "2025.03",
+  "total": "2:19:22",
+  "md_mode": "SP Stereo · 2 discs",
+  "cover": "cover.jpg",
+  "design_files": [
+    "bach-nevermind.ai"
+  ],
+  "intro": "同样非常有想象力。结合电影的剧情，能感受到宇宙的辽阔，以及人面对时间、未来、过去和情感时的一种内在力量。宇宙非常黑暗，一望无际，没有边界；但人在其中的位置，和音乐里的情感力量，很能和当下技术飞速变化的环境产生共鸣。",
+  "credits": [
+    "Hans Zimmer — 作曲",
+    "管风琴录于伦敦 Temple Church"
+  ],
+  "tracks": [
+    {
+      "n": 1,
+      "title": "Disc 1 · Dreaming of the Crash",
+      "time": "3:55"
+    },
+    {
+      "n": 2,
+      "title": "Cornfield Chase",
+      "time": "2:06",
+      "note": "简洁的音型反复、一层层加码。少量的音符不断叠加，累积出很强的情感力量。"
+    },
+    {
+      "n": 3,
+      "title": "Dust",
+      "time": "5:41"
+    },
+    {
+      "n": 4,
+      "title": "Day One (Interstellar Theme)",
+      "time": "3:19",
+      "note": "电影还没开拍，季默只拿到诺兰一页纸的信，写的是父亲与孩子。这段主题就从那页信里长出来，后来成了整部配乐的核心。"
+    },
+    {
+      "n": 5,
+      "title": "Stay",
+      "time": "6:52"
+    },
+    {
+      "n": 6,
+      "title": "Message from Home",
+      "time": "1:40"
+    },
+    {
+      "n": 7,
+      "title": "The Wormhole",
+      "time": "1:30"
+    },
+    {
+      "n": 8,
+      "title": "Mountains",
+      "time": "3:39"
+    },
+    {
+      "n": 9,
+      "title": "Afraid of Time",
+      "time": "2:32"
+    },
+    {
+      "n": 10,
+      "title": "A Place Among the Stars",
+      "time": "3:27"
+    },
+    {
+      "n": 11,
+      "title": "Running Out",
+      "time": "1:57"
+    },
+    {
+      "n": 12,
+      "title": "I'm Going Home",
+      "time": "5:48"
+    },
+    {
+      "n": 13,
+      "title": "Coward",
+      "time": "8:26"
+    },
+    {
+      "n": 14,
+      "title": "Detach",
+      "time": "6:42"
+    },
+    {
+      "n": 15,
+      "title": "S.T.A.Y.",
+      "time": "6:23"
+    },
+    {
+      "n": 16,
+      "title": "Where We're Going",
+      "time": "7:41"
+    },
+    {
+      "n": 17,
+      "title": "First Step",
+      "time": "1:47"
+    },
+    {
+      "n": 18,
+      "title": "Flying Drone",
+      "time": "1:53"
+    },
+    {
+      "n": 19,
+      "title": "Atmospheric Entry",
+      "time": "1:40"
+    },
+    {
+      "n": 20,
+      "title": "No Need to Come Back",
+      "time": "4:32"
+    },
+    {
+      "n": 21,
+      "title": "Imperfect Lock",
+      "time": "6:54"
+    },
+    {
+      "n": 22,
+      "title": "No Time for Caution",
+      "time": "4:06"
+    },
+    {
+      "n": 23,
+      "title": "What Happens Now?",
+      "time": "2:26"
+    },
+    {
+      "n": 24,
+      "title": "Who's They?",
+      "time": "7:17"
+    },
+    {
+      "n": 25,
+      "title": "Murph",
+      "time": "11:20"
+    },
+    {
+      "n": 26,
+      "title": "Organ Variation",
+      "time": "4:51"
+    },
+    {
+      "n": 27,
+      "title": "Tick-Tock",
+      "time": "8:18"
+    },
+    {
+      "n": 28,
+      "title": "Day One (Original Demo)",
+      "time": "3:49"
+    },
+    {
+      "n": 29,
+      "title": "Day One Dark",
+      "time": "6:57"
+    },
+    {
+      "n": 30,
+      "title": "Do Not Go Gentle Into That Good Night",
+      "time": "1:39"
+    }
+  ],
+  "essays": [
+    {
+      "h": "管风琴与极简的叠加",
+      "p": "季默在一部科幻片里大胆用了教堂管风琴，和管弦乐、人声、电子音色融在一起，既有太空的神秘宏大，又有圣咏般的庄严和人情。写法上接近极简主义：简短的动机反复出现，一层层加码，靠累积而不是靠旋律的铺陈来推动情绪。评论说它既捕捉了外太空的广袤，又始终守着父女亲情这个内在的核心。"
+    },
+    {
+      "h": "和 Planet Earth III 对照",
+      "p": "同一位作曲家，两种宏大：《星际穿越》面对的是时间、宇宙和人的情感；Planet Earth III 面对的是自然的辽阔，以及生存和竞争的残酷。"
+    }
+  ],
+  "related": [
+    "planet-earth-iii"
+  ]
+}

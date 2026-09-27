@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Fetch a ChatGPT share link and save the conversation as private/<slug>.chat.md.
 
-usage: fetch_chat.py <slug> [url]      url defaults to private/<slug>.chat-url.txt
+usage: fetch_chat.py <slug> [url]      re-fetch all urls in private/<slug>.chat-url.txt (one per line);
+                                       a url given on the command line is appended to that list first.
+An album can have several conversations (and one conversation can cover several albums).
 Exit code 0 = unchanged, 10 = new or changed (prints the new turns).
 Everything goes to private/ (git-ignored): raw chats are never published.
 """
@@ -92,15 +94,20 @@ def main():
     slug = sys.argv[1]
     PRIV.mkdir(exist_ok=True)
     url_file = PRIV / f"{slug}.chat-url.txt"
-    url = sys.argv[2] if len(sys.argv) > 2 else url_file.read_text().strip()
-    url_file.write_text(url + "\n")
-    result = {}
+    urls = url_file.read_text().split() if url_file.exists() else []
+    if len(sys.argv) > 2 and sys.argv[2] not in urls:
+        urls.append(sys.argv[2])
+    url_file.write_text("\n".join(urls) + "\n")
     sys.setrecursionlimit(200000)
     threading.stack_size(512 * 1024 * 1024)
-    t = threading.Thread(target=lambda: result.update(d=decode(fetch(url))))
-    t.start()
-    t.join()
-    md = to_markdown(result["d"], url)
+    mds = []
+    for url in urls:
+        result = {}
+        t = threading.Thread(target=lambda: result.update(d=decode(fetch(url))))
+        t.start()
+        t.join()
+        mds.append(to_markdown(result["d"], url))
+    md = "\n\n---\n\n".join(mds)
     sync = PRIV / "sync.json"
     state = json.loads(sync.read_text()) if sync.exists() else {}
     from datetime import datetime
