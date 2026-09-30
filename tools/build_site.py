@@ -76,7 +76,7 @@ def album_page(a, by_slug):
     credits = "".join(f"<li>{e(c)}</li>" for c in a.get("credits", []))
     essays = "".join(f'<div class="essay"><h3>{e(s["h"])}</h3><p>{e(s["p"])}</p></div>'
                      for s in a.get("essays", []))
-    title_zh = f' <span style="color:var(--mute);font-weight:400">{e(a["title_zh"])}</span>' if a.get("title_zh") else ""
+    title_zh = f'<br><span style="color:var(--mute);font-weight:400">{e(a["title_zh"])}</span>' if a.get("title_zh") else ""
     body = f"""
 <div class="hero"><img src="{e(a['cover'])}" alt="">
 <div><div class="meta">{e(a.get('label',''))} · {e(a.get('released',''))}</div>
