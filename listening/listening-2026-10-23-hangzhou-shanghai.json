@@ -1,0 +1,214 @@
+{
+  "slug": "listening-2026-10-23-hangzhou-shanghai",
+  "type": "listening",
+  "title": "杭州→上海 · 台风雨夜听歌",
+  "date": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "context": {
+    "zh": "滴滴城际拼车，杭州到上海。外面是台风的雨，耳机里听 Spotify 新歌雷达。工作周结束后，期待次日 QCon 上海。",
+    "device": "iPhone · Spotify Release Radar（新歌雷达）",
+    "source": "Spotify"
+  },
+  "md_crossover": {
+    "slug": "the-poem-of-life",
+    "title": "The Poem of Life / 生命之诗",
+    "artist": "陈致逸",
+    "note": "整张已录 MiniDisc；当晚在 Spotify 听到第 12 轨 The Unfinished Poem。听感：非常完整。",
+    "existing_page": "https://mengdream.github.io/md-liner-notes/albums/the-poem-of-life/"
+  },
+  "tracks": [
+    {
+      "approx_time": "傍晚较早",
+      "title": "万里长风",
+      "artist": "周深",
+      "album": "万里长风",
+      "source": "Spotify",
+      "spotify_search": "周深 万里长风",
+      "intro": "长征 90 周年主题曲，毕磊作词、钱雷作曲，2026-10-20 发行。",
+      "user_note": null
+    },
+    {
+      "approx_time": null,
+      "title": "FIRESTARTER",
+      "artist": "K/DA · MIYEON · SOYEON · Mimi Webb · Sophie Powers",
+      "album": "FIRESTARTER",
+      "source": "Spotify",
+      "spotify_search": "K/DA FIRESTARTER",
+      "intro": "2026-10-18 发行；MV 由 Fortiche 制作。游戏虚拟团与真人歌手的声线叠合。",
+      "user_note": "很吵。"
+    },
+    {
+      "approx_time": null,
+      "title": "Hammer of Justice",
+      "artist": "Trevor Alan Gomes",
+      "album": "Deltarune piano collection (Ch3+4)",
+      "source": "Spotify",
+      "spotify_search": "Hammer of Justice Trevor Alan Gomes",
+      "intro": "游戏配乐的钢琴改编，不是古典奏鸣曲，却用钢琴织体把战斗感压成室内声响。",
+      "user_note": "钢琴，但不是古典。"
+    },
+    {
+      "approx_time": null,
+      "title": "面目全非",
+      "artist": "张远",
+      "album": "面目全非",
+      "source": "Spotify",
+      "spotify_search": "张远 面目全非",
+      "intro": "2026-10-22 新歌。张远：快男 2007 第 9、至上励合队长、创造营 2019《侥幸者》、成名曲《嘉宾》；远行巡演杭州站约在 10/24–25。",
+      "user_note": "这个男声很好；出道到现在二十年，听起来已经很成熟。"
+    },
+    {
+      "approx_time": null,
+      "title": "失眠（深情版）",
+      "artist": "陈威全",
+      "album": null,
+      "source": "Spotify",
+      "spotify_search": "陈威全 失眠 深情版",
+      "intro": "原曲 2009 年为刘舒妤所写；此为深情版翻唱/重录语境。",
+      "user_note": "听了三遍。换新时曲子刚开始还低沉，不确定会不会到高潮。"
+    },
+    {
+      "approx_time": null,
+      "title": "Chain of the Abyss",
+      "artist": "Kevin Penkin feat. Mori Calliope",
+      "album": "Made in Abyss: 觉醒的神秘 OST",
+      "source": "Spotify",
+      "spotify_search": "Chain of the Abyss Kevin Penkin Mori Calliope",
+      "intro": "剧场版《来自深渊 觉醒的神秘》主题；OST 当日发行语境。虚拟歌手（Hololive EN Myth）与作曲家合作。",
+      "user_note": "新歌，完全不了解。由此聊到虚拟歌手：形象、声音与传统身份合一不同，可以打散组合。"
+    },
+    {
+      "approx_time": null,
+      "title": "はなればなれ",
+      "artist": "bassy feat. 茶太",
+      "album": "続・現代ポップスC",
+      "source": "Spotify",
+      "spotify_search": "bassy 茶太 はなればなれ",
+      "intro": "2019 年专辑曲目；日系流行与同人向人声的温柔距离感。",
+      "user_note": null
+    },
+    {
+      "approx_time": null,
+      "title": "Prélude à l'après-midi d'un faune（改编）",
+      "artist": "Debussy · arr. Wouter Lenaerts",
+      "album": null,
+      "performers": "Anneleen Lenaerts (harp) · Timothy Ridout (viola) · Adam Walker (flute)",
+      "source": "Spotify",
+      "spotify_search": "Debussy Faune Lenaerts Ridout Walker",
+      "intro": "牧神午后前奏曲改编为竖琴、中提琴与长笛三重奏；真实演奏者的律动需要彼此合作。",
+      "user_note": "古典，有真实的演奏者，律动还需要合作。"
+    },
+    {
+      "approx_time": null,
+      "title": "C for Charli",
+      "artist": "Belle Chen",
+      "album": "Blue Grotto",
+      "source": "Spotify",
+      "spotify_search": "Belle Chen C for Charli Blue Grotto",
+      "intro": "专辑 Blue Grotto，2026-10-23 发行，关于母职/母亲主题。",
+      "user_note": "不像纯古典。"
+    },
+    {
+      "approx_time": null,
+      "title": "余红",
+      "artist": "毛不易",
+      "album": "余红",
+      "source": "Spotify",
+      "spotify_search": "毛不易 余红",
+      "intro": "影视《余红旧事》主题曲（改编自班宇《于洪》）；禹嫣词曲，有圆号与俄式小调色彩。",
+      "user_note": "很有特点，沉浸感。"
+    },
+    {
+      "approx_time": null,
+      "title": "接招",
+      "artist": "周华健",
+      "album": "接招吧！製作人 单位曲",
+      "source": "Spotify",
+      "spotify_search": "周华健 接招",
+      "intro": "周华健制作并作曲，黄婷作词，吴加恩编曲。这段时期编曲复杂、有凌厉感。",
+      "user_note": "新曲，前奏有意思，细碎的声音；周华健这段时期都是这种感觉，复杂有凌厉。"
+    },
+    {
+      "approx_time": null,
+      "title": "Rain",
+      "artist": "Ryuichi Sakamoto · Bang On A Can All-Stars · arr. Ken Thomson",
+      "album": "Sakamoto: 1996（2026-11-20 发行语境）",
+      "source": "Spotify",
+      "spotify_search": "Sakamoto Rain Bang On A Can",
+      "intro": "原曲出自 1996 钢琴三重奏专辑；此为室内乐改编版。坂本龙一 2023 年辞世。",
+      "user_note": "版本龙一来了：熟悉的旋律，不同的乐器质感。问：这张是改编吗？"
+    },
+    {
+      "approx_time": "约 20:20",
+      "title": "I'm Looking Through You (Second Version - Take 3)",
+      "artist": "The Beatles",
+      "album": "Rubber Soul Special Edition (2026-10-02)",
+      "source": "Spotify",
+      "spotify_search": "I'm Looking Through You Second Version Take 3 Beatles",
+      "intro": "出自 1965《Rubber Soul》特别版会话录音（1965-11-06）；Giles Martin 新混音。正式版后来写了 bridge 换掉两段 12 小节器乐。专辑处于偶像流行转向录音室实验的分水岭。",
+      "user_note": "beatles 来了。问：这张是什么时期的专辑？"
+    },
+    {
+      "approx_time": "约 20:22",
+      "title": "5 Pieces: No. 1, Elegie",
+      "artist": "Valentin Silvestrov · Daniel Hope · Vitalii Kyianytsia",
+      "album": "Born in Ukraine – 150 Years of Ukrainian Music (DG, 2026-11-06)",
+      "source": "Spotify",
+      "spotify_search": "Silvestrov Elegie Daniel Hope",
+      "intro": "西尔维斯特罗夫挽歌；霍普小提琴、基亚尼察钢琴。专辑追溯乌克兰 150 年音乐史。",
+      "user_note": "古典又来了，起初感觉是大提琴，后确认是小提琴。慢慢进入城市了。"
+    },
+    {
+      "approx_time": "约 20:25",
+      "title": "Tell The Bees",
+      "artist": "Max Richter",
+      "album": "While the Flood Rages (2026-10-16)",
+      "source": "Spotify",
+      "spotify_search": "Max Richter Tell The Bees",
+      "intro": "脱胎于与 Wayne McGregor 舞剧 MaddAddam（阿特伍德末日三部曲）。第二幕里最田园、近民谣的一段；曲名来自英国「告诉蜜蜂」的乡间习俗。",
+      "user_note": "Max Richter，我熟悉的。"
+    },
+    {
+      "approx_time": "约 20:29",
+      "title": "The Greatest Show On Earth",
+      "artist": "U2",
+      "album": "Carnaval De Luz (2026-11-13)",
+      "source": "Spotify",
+      "spotify_search": "U2 The Greatest Show On Earth",
+      "intro": "第三支单曲，与 Brian Eno 合写；九年后首张全新专辑中的一轨。恋人彼此守信、也守信念本身。",
+      "user_note": "新曲子，有人声。"
+    },
+    {
+      "approx_time": "约 20:34",
+      "title": "The Unfinished Poem",
+      "artist": "Yu-Peng Chen · Shanghai Philharmonic Orchestra · Liang Zhang",
+      "album": "The Poem of Life",
+      "source": "Spotify",
+      "md": true,
+      "md_page": "albums/the-poem-of-life/",
+      "spotify_search": "The Unfinished Poem Yu-Peng Chen",
+      "intro": "生命之诗第 12 轨：未完成的诗。专辑已有完整 MD 衬页页。",
+      "user_note": "这首曲子我熟悉，这张专辑我录了 MD，一整张。听感：非常完整的感觉。"
+    },
+    {
+      "approx_time": "约 20:38",
+      "title": "Keyboard Sonata in D Minor, Kk. 1",
+      "artist": "Domenico Scarlatti · Angela Hewitt",
+      "album": "Scarlatti: Sonatas, Vol. 3 (Hyperion, 2026-11-06)",
+      "source": "Spotify",
+      "spotify_search": "Scarlatti Kk.1 Angela Hewitt",
+      "intro": "Essercizi 第一首，休伊特十年后再录斯卡拉蒂的开场。旋律常出现在教材与合辑，名字却少人对得上。",
+      "user_note": "旋律的感觉有点耳熟，但是看了一下不认识。"
+    },
+    {
+      "approx_time": "约 20:41",
+      "title": "TATA",
+      "artist": "Loco feat. MINAMI of RESCENE",
+      "album": "TATA - Single (2026-10-15)",
+      "source": "Spotify",
+      "spotify_search": "Loco TATA MINAMI",
+      "intro": "远距离也能跑过去的情歌；制作有 Crush、ELO、THAMA、g0nny。Loco 签 Duo Entertainment 后的新发。",
+      "user_note": "新歌。好久没有听的韩国歌手，曾有段时间听很多遍。"
+    }
+  ]
+}
